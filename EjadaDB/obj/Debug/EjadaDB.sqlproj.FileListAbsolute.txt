@@ -1,0 +1,6 @@
+C:\Users\andre\Desktop\Ejada\EjadaDB\bin\Debug\EjadaDB.dacpac
+C:\Users\andre\Desktop\Ejada\EjadaDB\bin\Debug\EjadaDB.dll
+C:\Users\andre\Desktop\Ejada\EjadaDB\bin\Debug\EjadaDB.pdb
+C:\Users\andre\Desktop\Ejada\EjadaDB\obj\Debug\EjadaDB.sqlprojAssemblyReference.cache
+C:\Users\andre\Desktop\Ejada\EjadaDB\obj\Debug\EjadaDB.dll
+C:\Users\andre\Desktop\Ejada\EjadaDB\obj\Debug\EjadaDB.pdb

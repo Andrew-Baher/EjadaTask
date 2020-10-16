@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[DepartmentManager]
+(
+	[DepId] INT NOT NULL PRIMARY KEY FOREIGN KEY REFERENCES Department(Id),
+	[EmpId] INT NOT NULL FOREIGN KEY REFERENCES Employee(Id)
+)

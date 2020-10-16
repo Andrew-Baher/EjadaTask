@@ -1,0 +1,22 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [DataLibrary] (Assembly)
+       [dbo].[Department] (Table)
+       [dbo].[DepartmentManager] (Table)
+       [dbo].[Employee] (Table)
+       [dbo].[User] (Table)
+       Foreign Key: unnamed constraint on [dbo].[DepartmentManager] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[DepartmentManager] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Employee] (Foreign Key)
+
+** Supporting actions

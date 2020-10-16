@@ -1,0 +1,9 @@
+C:\Users\andre\Desktop\Ejada\DataLibrary\bin\Debug\DataLibrary.dll
+C:\Users\andre\Desktop\Ejada\DataLibrary\bin\Debug\DataLibrary.pdb
+C:\Users\andre\Desktop\Ejada\DataLibrary\bin\Debug\Dapper.dll
+C:\Users\andre\Desktop\Ejada\DataLibrary\bin\Debug\Dapper.xml
+C:\Users\andre\Desktop\Ejada\DataLibrary\obj\Debug\DataLibrary.csprojAssemblyReference.cache
+C:\Users\andre\Desktop\Ejada\DataLibrary\obj\Debug\DataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Ejada\DataLibrary\obj\Debug\DataLibrary.csproj.CopyComplete
+C:\Users\andre\Desktop\Ejada\DataLibrary\obj\Debug\DataLibrary.dll
+C:\Users\andre\Desktop\Ejada\DataLibrary\obj\Debug\DataLibrary.pdb

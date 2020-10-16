@@ -1,0 +1,41 @@
+﻿@model IEnumerable<EjadaTask.Models.DepartmentModel>
+
+@{
+    ViewBag.Title = "ViewDepartments";
+}
+
+<h2>View all departments</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateDepartment")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DepartmentName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DepartmentDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ManagerName)
+        </th>
+        
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DepartmentName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DepartmentDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ManagerName)
+        </td>
+        
+    </tr>
+}
+
+</table>

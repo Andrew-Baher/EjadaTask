@@ -1,0 +1,63 @@
+﻿@model IEnumerable<EjadaTask.Models.EmployeeModel>
+
+@{
+    ViewBag.Title = "ViewEmployees";
+}
+
+<h2>View all employees</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateEmployee")
+</p>
+
+<form asp-controller="Employee" asp-action="ViewEmployees" method="get">
+    <p>
+        Employee name: <input type="text" name="SearchString">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EmployyeId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmployeeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmployeeContacts)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmployeeAge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmployeeDeaprtment)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployyeId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployeeName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployeeContacts)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployeeAge)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmployeeDeaprtment)
+        </td>
+        <td>
+            @Html.ActionLink("Set As Manager", "SetManager", new { EmployeeID=item.EmployyeId,Department=item.EmployeeDeaprtment }) 
+        </td>
+    </tr>
+}
+
+</table>
